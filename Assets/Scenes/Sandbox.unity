@@ -1766,6 +1766,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2972957508891959097, guid: 09719ca399b1a51a79e6e262a3dcf4d6, type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972957508891959097, guid: 09719ca399b1a51a79e6e262a3dcf4d6, type: 3}
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972957508891959097, guid: 09719ca399b1a51a79e6e262a3dcf4d6, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 4011381206238811994, guid: 09719ca399b1a51a79e6e262a3dcf4d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1835,8 +1847,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2972957508891959095}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3a7db412fc15afcd08d836a2c840be05, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1864,15 +1876,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5693407903846797291, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.23
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5693407903846797291, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5693407903846797291, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.53
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5693407903846797291, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1908,15 +1920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6990687323382600007, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.593008
+      value: -4.14
       objectReference: {fileID: 0}
     - target: {fileID: 6990687323382600007, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.358131
+      value: 9.99
       objectReference: {fileID: 0}
     - target: {fileID: 6990687323382600007, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.8533945
+      value: -6.51
       objectReference: {fileID: 0}
     - target: {fileID: 6990687323382600007, guid: e03d1b92c902f8d33bfa1b7aaf9081e2, type: 3}
       propertyPath: m_LocalRotation.w
