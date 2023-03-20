@@ -8,6 +8,12 @@ namespace RPG.Movement
     public class Mover : MonoBehaviour {
         [SerializeField] private Transform target;
 
+        private NavMeshAgent navMeshAgent;
+
+        private void Start() {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+        }
+
         // Update is called once per frame
         void Update() {
             UpdateAnimator();
@@ -15,6 +21,11 @@ namespace RPG.Movement
     
         public void MoveTo(Vector3 destination) {
             GetComponent<NavMeshAgent>().destination = destination;
+            navMeshAgent.isStopped = false;
+        }
+
+        public void Stop() {
+            navMeshAgent.isStopped = true;
         }
 
         private void UpdateAnimator() {
